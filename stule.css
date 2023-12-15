@@ -1,0 +1,129 @@
+body {
+	background-color: darkgrey;
+	display: flex;
+	justify-content: center;
+	padding-top: 2rem;
+}
+
+h2{
+	color: white;
+	font-size: 25px;
+}
+
+.outdiv{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: black;
+	width: 50%;
+	border-radius: 20px;
+}
+button{
+	font-size: 15px;
+	border-radius: 15px;
+	padding: 10px 20px;
+	border: none;
+	width: 19rem;
+	cursor: pointer;
+
+}
+
+.big-input{
+	width: 19rem;
+	height:50px;
+	text-align: left;
+	border-radius: 10px;
+	border:solid 1px white;
+	padding-left: 10px;
+	background-color: black;
+	font-size: 1rem;
+	color: white;
+}
+/*.with-text{
+	text-align: center;
+	position: relative;
+	border: 0;
+	height: 1.5em;
+	line-height: 1em;
+	font-size: 14px;
+	height: 1px;
+	background-color: darkgrey;
+}
+.with-text::before {
+	content:"";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	height: 1px;
+
+}
+.with-text::after {
+	content: attr(data-content);
+	line-height: 1.5em;
+	position: relative;
+	padding: 0 7px;
+	background-color: #1a1a1a;
+	color: white;
+}*/
+
+.logo{
+	width: 30px;
+	height: auto;
+	padding-top: 1rem;
+
+}
+
+.container{
+	text-align: center;
+}
+.container img {
+	display: block;
+	margin: 0 auto;
+}
+.password{
+	background-color: black;
+	color: white;
+	border:1px solid;
+	cursor: pointer;
+}
+.paragraph{
+	color: darkgrey;
+}
+.link{
+	padding-left: 10px;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+
+#hr {
+/*	background-color: darkred;*/
+	display: flex;
+	justify-content: center;
+}
+
+.hr {
+	width: 45%;
+	height: 0.01px;
+}
+
+span {
+	display: inline;
+	color: darkgrey;
+}
+
+.other-input{
+	width: 19rem;
+	border-radius: 10px;
+	border: solid 1px white;
+	height: 40px;
+	font-size: 1rem;
+	background-color: black;
+	padding-left: 10px;
+	color: white;
+}
+
+.paragraph-1{
+	color: darkgrey;
+
+}
